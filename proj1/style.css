@@ -1,0 +1,100 @@
+/* COMMON */
+body, html {
+    font-size: 16px;
+    font-weight: 400;
+    line-height:1.4;
+    background: #EBE9ED;
+    overflow-x: hidden;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    background-color: #royalbl
+}
+header .inner {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+header .sub_menu {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    display: flex;
+}
+header .sub_menu ul.menu {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+}
+
+header .sub_menu ul.menu li {
+    position: relative;
+    list-style-type: none;
+}
+header .sub_menu ul.menu li::before {
+    content: "";
+    width: 1px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+header .sub_menu ul.menu li:first-child::before {
+    display: none;
+}
+header .sub_menu ul.menu li a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 11px 16px;
+}
+header .sub_menu ul.menu li a:hover {
+    text-decoration: underline; 
+}
+
+.landing-page {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 130px; 
+}
+
+.landing-page h1 {
+    font-weight: bold;
+    font-size: 170px;
+    color: #FFFFFF;
+    font-family: 'Share', sans-serif; 
+    margin: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.landing-page p {
+    font-size: 50px;
+    font-family: 'Sarala', sans-serif; 
+    z-index: 2;
+    margin: 0px;
+    top: 0px;
+    position: absolute;
+}
+.landing-page img {
+    position: absolute;
+    left: 0; 
+    right:0;
+    width: 50px; 
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
